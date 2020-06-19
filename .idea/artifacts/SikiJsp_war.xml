@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SikiJsp:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SikiJsp_war</output-path>
+    <root id="archive" name="SikiJsp_war.war">
+      <element id="artifact" artifact-name="SikiJsp:war exploded" />
+    </root>
+  </artifact>
+</component>

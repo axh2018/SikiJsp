@@ -1,0 +1,153 @@
+/* 清除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+
+}
+
+/* 是锚点匀速 */
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 35px;
+
+    color: #ff6633;
+}
+
+h2,
+p {
+    margin-top: 25px;
+}
+
+h1,
+p,
+h2 {
+    text-align: center;
+}
+
+/* 确定版心 */
+.w {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* 头部区域 start */
+.header {
+    height: 300px;
+    border-bottom: 2px solid #ffcccc;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 由于图片问题 采用盒子包住图片 做一个圆形的图片 */
+.header .hpic {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: url(../images/3.png);
+    /* transition: all 1s; */
+}
+
+.hpic:hover {
+    /* transform: rotate(360deg); */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: move 2s ease 0s;
+}
+
+.header p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.header p a {
+    color: black;
+    padding: 0 5px;
+}
+
+
+/* 头部区域 end */
+
+/* banner区域1 start  */
+/* 弄盒子上边距和下边框 */
+.banner1 {
+    margin-top: 70px;
+    border-bottom: 2px solid #ffcccc;
+}
+
+/* 设置图片的上下边距 形成一定距离 */
+.pic1 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* 设置小图片的大小的样式 */
+.pic2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 340px;
+    background-color: #f7f7f7;
+}
+
+.pic2 ul {
+    float: left;
+    margin-left: 68px;
+    margin-top: 30px;
+}
+
+.pic2 ul li {
+    width: 195px;
+    height: 195px;
+    float: left;
+    margin-right: 15px;
+}
+
+.pic2 p {
+    text-align: left;
+    font-size: 12px;
+}
+
+/* banner区域1 end */
+
+/* 返回顶部 start  */
+.topnav {
+    position: fixed;
+    left: 60%;
+    margin-top: 600px;
+    margin-left: 375px;
+    border: 1px solid black;
+}
+
+.topnav i {
+    font-size: 32px;
+    color: black;
+}
+
+
+/* 返回顶部 end  */

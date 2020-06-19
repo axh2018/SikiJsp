@@ -1,0 +1,80 @@
+/* 消除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('../images/001.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*添加版权*/
+#footer {
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: pink;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* 设置主界面的样式 */
+.loginbox {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    /* 撑大盒子 调节距离 */
+    padding: 20px 50px;
+    background: rgba(200, 200, 200, 0.4);
+}
+
+.loginbox h1 {
+    color: #fff;
+}
+
+.loginbox .ite .item {
+    margin-top: 15px;
+}
+
+.loginbox .ite .item input {
+    width: 180px;
+    font-size: 18px;
+    /* 取消点击蓝色边框 */
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    /* 撑大盒子 调节距离 */
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #fff;
+}
+
+.loginbox .btn input {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.item i {
+    font-size: 18px;
+    color: #fff;
+}

@@ -1,0 +1,97 @@
+/* 消除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*添加版权*/
+#footer {
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    color: pink;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('../images/027.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.registerbox {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    padding: 20px 50px;
+    background: rgba(200, 200, 200, 0.4);
+}
+
+.registerbox h1 {
+    color: #fff;
+}
+
+.registerbox .ite .item {
+    margin-top: 15px;
+}
+
+.registerbox .ite .item input {
+    width: 180px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #fff;
+}
+
+.registerbox .btn input {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    width: 180px;
+    height: 30px;
+    color: #fff;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    cursor: pointer;
+    border: 0;
+    border-radius: 15px;
+}
+
+.registerbox .tiaoz {
+    margin: 15px auto;
+    width: 150px;
+    height: 20px;
+    color: #fff;
+    font-size: 14px;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    border: 0;
+    border-radius: 10px;
+}
+
+.registerbox .tiaoz a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.item i {
+    font-size: 18px;
+    color: #fff;
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 22px;
+    /*去除padding撑大盒子*/
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/009.jpg');
+}
+
+#submit{
+    color: #fff;
+    background-color: #333;
+    border: none;
+    line-height: 1em;
+    padding: 0.5em;
+    width: 100%;
+    height: 2.0em;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1.5em;
+}
+
+/*结果的CSS*/
+#result {
+    position: fixed;
+    bottom: 350px;
+    left: 730px;
+    margin: auto;
+    /**/
+    width: 40%;
+
+    /*修改测试*/
+    /*width: 240px;*/
+
+    /*height: auto;*/
+    text-align: center;
+    /* 撑大盒子 调节距离 */
+    padding: 20px 20px;
+    background: rgba(200, 200, 200, 0.4);
+}
+
+#action {
+    position: fixed;
+    left: 900px;
+    top: 200px;
+    margin: auto;
+    /*修改测试*/
+    width: 240px;
+}
+
+#nav {
+    text-align: center;
+    line-height: 45px;
+    margin: 200px 10px 10px;
+    top: 200px;
+    width: 300px;
+}
+
+.title {
+    background: #439699;
+    color: #fff;
+    border-bottom: 4px solid #00c9ff;
+    cursor: pointer;
+}
+
+.content li {
+    color: #123456;
+    background: #629761;
+    border-bottom: 4px solid #ff6633;
+    cursor: pointer;
+}
+
+/*输入框*/
+input{
+    border: 1px solid #ccc;
+    padding: 7px 0px;
+    border-radius: 3px; /*css3属性IE不支持*/
+    /*padding-left:5px;*/
+    /*border: 1px solid #ccc;*/
+    /*padding: 7px 0px;*/
+    /*border-radius: 3px;*/
+    padding-left:5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+/*输入框聚焦*/
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+/*添加版权*/
+#footer {
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #c74b60;
+    font-family: Arial, serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/*```There is a javaweb project, which can run well on my pc, but can't run well on a server computer.*/
+/*I can enter the loging page, but i can't login in even i use a correct username and passwd.Besides, i can't register, i think it may be a mysql connecting problem.*/
+/*The username and password of mysql are the same between server and my pc. Also, i created a same database and inserted same values on the server.*/
+/*my pc mysql version: mysql  Ver 14.14 Distrib 5.7.19, for Win64 (x86_64)*/
+/*server mysql version: mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper*/
+/*                                                                          I really don't konw how to solve the problem. Thank you!```*/
