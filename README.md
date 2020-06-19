@@ -1,9 +1,17 @@
-Tomcat:9.0.34
-JDK:1.8.221
-Mysql:5.7.19
-IDEA:2020.1.2
+`Tomcat`：`9.0.34`
+`JDK`:`1.8.221`
+`Mysql`:`5.7.19`
+`IDEA`:`2020.1.2`(`professional`)
 
-使用(IDEA): 
+用到的`jar`包：
+
+`c3p0-0.9.12.jar`
+
+`common-dbutils-1.7.jar`
+
+`mysql-connector-java-8.0.18.jar`
+
+RUN(IDEA): 
 1. 建表`database.sql`
 2. `c3p0-config.xml`修改数据库的相关配置
 
@@ -18,4 +26,7 @@ IDEA:2020.1.2
 
 管理界面:
 
-![管理](https://matery.oss-cn-hangzhou.aliyuncs.com/pic/admin.png)
+![管理](https://matery.oss-cn-hangzhou.aliyuncs.com/pic/admin_1.png)
+
+![管理](https://matery.oss-cn-hangzhou.aliyuncs.com/pic/admin_2.png)
+
