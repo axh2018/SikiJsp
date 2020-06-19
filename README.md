@@ -11,6 +11,8 @@
 
 `mysql-connector-java-8.0.18.jar`
 
+演示地址：http://123.56.235.86:8080/SikiJsp/
+
 RUN(IDEA): 
 1. 建表`database.sql`
 2. `c3p0-config.xml`修改数据库的相关配置
