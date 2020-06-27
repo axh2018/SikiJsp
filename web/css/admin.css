@@ -111,9 +111,3 @@ input:focus{
     font-size: 15px;
     letter-spacing: 1px;
 }
-/*```There is a javaweb project, which can run well on my pc, but can't run well on a server computer.*/
-/*I can enter the loging page, but i can't login in even i use a correct username and passwd.Besides, i can't register, i think it may be a mysql connecting problem.*/
-/*The username and password of mysql are the same between server and my pc. Also, i created a same database and inserted same values on the server.*/
-/*my pc mysql version: mysql  Ver 14.14 Distrib 5.7.19, for Win64 (x86_64)*/
-/*server mysql version: mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper*/
-/*                                                                          I really don't konw how to solve the problem. Thank you!```*/
